@@ -1,0 +1,78 @@
+aid: coconstruct
+name: CoConstruct
+description: >-
+  CoConstruct is a residential construction management software platform
+  originally founded in 2005 in Charlottesville, Virginia by Donny Wyatt
+  to help custom home builders and remodelers manage projects, budgets,
+  selections, client communications, scheduling, and financial workflows
+  in a single web and mobile application. The product served thousands of
+  custom builders across the United States and was paired with CBUSA, a
+  homebuilder group purchasing organization CoConstruct previously
+  acquired. On February 24, 2021, CoConstruct was acquired by Buildertrend
+  of Omaha, Nebraska, with growth funding from Bain Capital Tech
+  Opportunities, HGGC, and Serent Capital, creating a combined company
+  serving 23,000+ clients, 1.1M+ users, and $200B+ in annual construction
+  project value. By 2022 Buildertrend had merged the two products into a
+  single unified Buildertrend platform and migrated CoConstruct customers
+  off the legacy product. CoConstruct historically operated a developer
+  portal at developer.coconstruct.com exposing APIs for project,
+  financial, and scheduling data, but as of the merger CoConstruct has
+  paused new API development — "we are not establishing new API
+  endpoints or connecting additional users to existing endpoints" — and
+  the developer portal now redirects to a static notice page. Existing
+  API connections are reportedly maintained but no public OpenAPI
+  specification, SDK, or open-source release is published. Net-new
+  integration work is directed to Buildertrend's own platform and
+  partner program.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Construction
+  - Residential Construction
+  - Custom Home Builders
+  - Remodelers
+  - Construction Management
+  - Project Management
+  - Estimating
+  - Scheduling
+  - Client Collaboration
+  - Construction Financials
+  - SaaS
+  - Buildertrend
+url: https://raw.githubusercontent.com/api-evangelist/coconstruct/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.coconstruct.com
+  - type: DeveloperPortal
+    url: https://developer.coconstruct.com
+  - type: APIOverview
+    url: https://www.coconstruct.com/developers
+  - type: Support
+    url: https://coconstruct.com/support
+  - type: Learn
+    url: https://www.coconstruct.com/learn-construction-software
+  - type: Migration
+    url: https://coconstruct.com/migration
+  - type: MigrationTiming
+    url: https://coconstruct.com/when-to-migrate
+  - type: JoinedBuildertrend
+    url: https://www.coconstruct.com/updates/coconstruct-has-joined-the-buildertrend-family
+  - type: AcquisitionPressRelease
+    url: https://buildertrend.com/press-releases/coconstruct-acquisition/
+  - type: AcquisitionBlog
+    url: https://buildertrend.com/blog/acquisition-coconstruct-software/
+  - type: ParentCompany
+    url: https://buildertrend.com
+  - type: Login
+    url: https://coconstruct.com/app/login
+  - type: PrivacyPolicy
+    url: https://buildertrend.com/privacy-policy/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
