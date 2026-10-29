@@ -1,4 +1,4 @@
-# coconstruct
+# CoConstruct
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CoConstruct — residential construction management software, merged into Buildertrend (2021)
+CoConstruct is a residential construction management software platform originally founded in 2005 in Charlottesville, Virginia by Donny Wyatt to help custom home builders and remodelers manage projects, budgets, selections, client communications, scheduling, and financial workflows in a single web and mobile application. The product served thousands of custom builders across the United States and was paired with CBUSA, a homebuilder group purchasing organization CoConstruct previously acquired. On February 24, 2021, CoConstruct was acquired by Buildertrend of Omaha, Nebraska, with growth funding from Bain Capital Tech Opportunities, HGGC, and Serent Capital, creating a combined company serving 23,000+ clients, 1.1M+ users, and $200B+ in annual construction project value. By 2022 Buildertrend had merged the two products into a single unified Buildertrend platform and migrated CoConstruct customers off the legacy product. CoConstruct historically operated a developer portal at developer.coconstruct.com exposing APIs for project, financial, and scheduling data, but as of the merger CoConstruct has paused new API development — "we are not establishing new API endpoints or connecting additional users to existing endpoints" — and the developer portal now redirects to a static notice page. Existing API connections are reportedly maintained but no public OpenAPI specification, SDK, or open-source release is published. Net-new integration work is directed to Buildertrend's own platform and partner program.
+
+**Areas:** Construction · Residential Construction · Custom Home Builders · Remodelers · Construction Management · Project Management · Estimating · Scheduling · Client Collaboration · Construction Financials · Software-as-a-Service · Buildertrend
+
+## CoConstruct on APIs.io
+
+Everything profiled for CoConstruct is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coconstruct/](https://apis.io/providers/coconstruct/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coconstruct Domain Security](https://apis.io/security/coconstruct/coconstruct-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.coconstruct.com)
+- [Support](https://coconstruct.com/support)
+- [Privacy policy](https://buildertrend.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 17.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coconstruct/](https://apis.io/providers/coconstruct/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CoConstruct: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coconstruct/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
